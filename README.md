@@ -12,3 +12,5 @@
 
 3. table structure:
 ![alt text](main-table-structure.png "Logo Title Text 1")
+
+4. run create_table.php (alternative to step 2) to create the table automatically 
