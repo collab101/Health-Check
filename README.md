@@ -9,3 +9,6 @@
  `id` varchar(20) NOT NULL,
  PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1
+
+3. table structure:
+![alt text](main-table-structure.png "Logo Title Text 1")
