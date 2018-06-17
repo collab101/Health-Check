@@ -82,7 +82,7 @@
 
             $sql .= "CREATE TABLE `health`.`$id` ( `time` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),`symptom` VARCHAR(100) NOT NULL , `prescription` VARCHAR(100) NOT NULL ) ENGINE = InnoDB;";
 
-            $sql .= "INSERT INTO `$id` VALUES ('$sm', '$pr' ); ";
+            $sql .= "INSERT INTO `$id` (`symptom`, `prescription` ) VALUES ('$sm', '$pr' ); ";
 
             if ($conn->multi_query($sql) === TRUE) {
                 echo "<h1>"."New patient record added successfully"."<h1>";
