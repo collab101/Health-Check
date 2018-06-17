@@ -159,7 +159,7 @@
             $sm = $_POST["symptom"];
             $pr = $_POST["prescription"];
 
-            $sql = "INSERT INTO `$id` VALUES ('$sm', '$pr' ); ";
+            $sql = "INSERT INTO `$id`(`symptom`, `prescription` ) VALUES ('$sm', '$pr' ); ";
 
             if ($conn->query($sql) === TRUE) {
                 echo "<h1>"."Medical Record Updated !!"."</h1>";
