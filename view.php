@@ -221,6 +221,7 @@
                 <tr>
                   <th>Symptoms</th>
                   <th>Prescription</th>
+                  <th>Date and Time</th>
                 </tr>
             </thead>
              <tbody>
@@ -231,7 +232,7 @@
             if ($result1->num_rows > 0) {
                 // output data of each row
                 while($row = $result1->fetch_assoc()) {
-                    echo "<tr>" . "<td>" .$row["symptom"] . "</td>" . "<td>" . $row["prescription"].  "</td>" . "</tr>";
+                    echo "<tr>" . "<td>" .substr($row["time"],18) . "</td>". "<td>" .$row["symptom"] . "</td>" . "<td>" . $row["prescription"].  "</td>" . "</tr>";
                 }
             } else {
                 echo "0 results";
