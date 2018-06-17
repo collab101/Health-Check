@@ -21,5 +21,5 @@ It consists of concise data on symptoms and prescribed medicines.
 Patient’s information is collected and updated through forms.
 
 1. For a new patient provide the name, age, gender, aadhar id, symptoms and the prescribed medicine.
-2.To update an entry provide th aadhar id and make corresponing changes in the patient's information.
-3.View a patients record with the hlp of aadhar id.
+2. To update an entry provide th aadhar id and make corresponing changes in the patient's information.
+3. View a patients record with the hlp of aadhar id.
