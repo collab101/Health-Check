@@ -19,10 +19,14 @@ It consists of concise data on symptoms and prescribed medicines.
 
 ## workflow
 Patient’s information is collected and updated through forms.
+![alt text](Health_check.png "Logo Title Text 1")
+
 
 1. For a new patient provide the name, age, gender, aadhar id, symptoms and the prescribed medicine.
 ![alt text](New_user.png "Logo Title Text 1")
+
 2. To update an entry provide th aadhar id and make corresponing changes in the patient's information.
 ![alt text](Updae_existing.png "Logo Title Text 1")
 3. View a patients record with the hlp of aadhar id.
+
 ![alt text](View_record.png "Logo Title Text 1")
