@@ -1,4 +1,5 @@
 # Health-Check
+Health check is the easiest way to provide doctors with up to date information about patient’s medical history. It consists of concise data on symptoms and prescribed medicines.
 ## setup
 1. create database - 'health'
 2. execute the following query:
