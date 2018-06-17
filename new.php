@@ -80,7 +80,7 @@
 
             $sql = "INSERT INTO main VALUES ('$nm', $ag, '$gen', '$id' );";
 
-            $sql .= "CREATE TABLE `health`.`$id` ( `symptom` VARCHAR(100) NOT NULL , `prescription` VARCHAR(100) NOT NULL ) ENGINE = InnoDB;";
+            $sql .= "CREATE TABLE `health`.`$id` ( `time` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6),`symptom` VARCHAR(100) NOT NULL , `prescription` VARCHAR(100) NOT NULL ) ENGINE = InnoDB;";
 
             $sql .= "INSERT INTO `$id` VALUES ('$sm', '$pr' ); ";
 
