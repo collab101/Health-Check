@@ -219,9 +219,10 @@
             <table class="table table-striped">
               <thead>
                 <tr>
+                  <th>Date</th>
+                  <th>Time</th>
                   <th>Symptoms</th>
                   <th>Prescription</th>
-                  <th>Date and Time</th>
                 </tr>
             </thead>
              <tbody>
@@ -232,7 +233,7 @@
             if ($result1->num_rows > 0) {
                 // output data of each row
                 while($row = $result1->fetch_assoc()) {
-                    echo "<tr>" . "<td>" .substr($row["time"],0,10). "</td>". "<td>" .$row["symptom"] . "</td>" . "<td>" . $row["prescription"].  "</td>" . "</tr>";
+                    echo "<tr>" . "<td>" .substr($row["time"],0,10). "</td>". "<td>" .substr($row["time"],10,9). "</td>". "<td>" .$row["symptom"] . "</td>" . "<td>" . $row["prescription"].  "</td>" . "</tr>";
                 }
             } else {
                 echo "0 results";
